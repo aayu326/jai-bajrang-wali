@@ -72,7 +72,7 @@ const KNOWLEDGE_BASE = {
 
   // Smart Classes
   smart_class: {
-    keywords: ['smart class', 'technology', 'digital classroom', 'computer lab', 'online learning'],
+    keywords: ['smart class', 'technology', 'digital classroom', 'computer lab', 'Erp' ,'online learning'],
     answer: "💻 Digital & Smart Learning:\n• Smart classrooms with interactive panels\n• Computer & Robotics Labs\n• Wi-Fi-enabled learning environment\n• Integrated Edunext ERP for attendance, grades & communication"
   },
 
@@ -474,4 +474,5 @@ app.listen(PORT, () => {
   console.log(`📚 Knowledge Base: ${Object.keys(KNOWLEDGE_BASE).length} topics`);
   console.log('╚═══════════════════════════════════════════\n');
   console.log('🚀 Ready to chat! Open index.html in your browser.\n');
+
 });
