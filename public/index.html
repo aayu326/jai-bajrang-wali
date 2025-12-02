@@ -542,13 +542,11 @@
 
     <script>
         // ==============================================
-        // CONFIGURATION - FIXED API URL (removed double slash)
+        // CONFIGURATION - DEPLOYED BACKEND URL
         // ==============================================
-       const API_URL = "http://localhost:8000/api/chat";
+        const API_URL = "https://jai-bajrang-wali.vercel.app/api/chat";
+        const HEALTH_CHECK_URL = "https://jai-bajrang-wali.vercel.app/api/health";
 
-        fetch("http://localhost:8000/api/health");
-
-        
         // ==============================================
         // DOM ELEMENTS
         // ==============================================
